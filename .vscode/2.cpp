@@ -120,21 +120,21 @@ using namespace std;
 
 // fibonacci
 
-// int main() {
-//     int n;
-//     cin >> n;
-//     int a = 0;
-//     int b = 1;
-//     int nxt = 0;
-//     cout << a << endl << b << endl;
+int main() {
+    int n;
+    cin >> n;
+    int a = 0;
+    int b = 1;
+    int nxt = 0;
+    cout << a << endl << b << endl;
     
-//     for (int i=0; i<n; i++) {
-//         nxt = a + b;
-//         cout << nxt << endl;
-//         a = b;
-//         b = nxt;
-//     }
-// }
+    for (int i=0; i<n; i++) {
+        nxt = a + b;
+        cout << nxt << endl;
+        a = b;
+        b = nxt;
+    }
+}
 
 
 // factors 
@@ -262,9 +262,16 @@ int bubbleSort(int arr[], int n) {
 
 // }
 
-// insert 
+// fact
 
-int insertAtIndex(int arr[], int n, int i, int val) {
+// int fact(int n) {
+//     if (n==1) return 1;
+//     return n*fact(n-1);
+// }
 
-}
+// int main() {
+//     int n;
+//     cin >> n;
+//     cout << fact(n);
+// }
 
